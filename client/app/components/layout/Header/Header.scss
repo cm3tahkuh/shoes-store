@@ -1,0 +1,45 @@
+.header {
+  border-bottom: 1px solid rgb(202, 202, 202);
+  background-color: white;
+
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+  }
+
+  &__title {
+    color: #121723;
+    font-family: "Russo One";
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 78.188%;
+    max-width: 217px;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    &-item {
+      & a {
+        color: #000;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: normal;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 530px) {
+  .header__list {
+    display: none;
+  }
+}

@@ -1,0 +1,51 @@
+.__sneaker {
+  max-width: 364px;
+  position: relative;
+  background-color: white;
+  border-radius: 12px;
+  transition: 0.5s;
+  height: fit-content;
+  display: block;
+
+  &:hover {
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.2s;
+    transform: translate(-5px, -10px);
+  }
+}
+
+.__image {
+  max-width: 100%;
+  width: 364px;
+}
+
+.__text-block {
+  padding: 32px 24px;
+}
+
+.__name {
+  color: #121723;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.__subname {
+  color: #121723;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}

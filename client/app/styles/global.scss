@@ -1,0 +1,31 @@
+@use './reset.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Russo+One&display=swap');
+
+::selection {
+  background: #ffb7b7;
+  /* Safari */
+}
+
+::-moz-selection {
+  background: #ffb7b7;
+  /* Firefox */
+}
+
+body {
+  background-color: #F1F1F1;
+  font-family: Anonymous Pro;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(216, 112, 147, 0.356);
+}
+
+
+//Общий контейнер для всех компонентов
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
