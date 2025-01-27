@@ -21,22 +21,7 @@
     }
 
 
-    &__nav {
-        display: flex;
-        align-items: center;
-        gap: 24px;
 
-        &-link {
-            color: #FFF;
-            font-size: 20px;
-            font-weight: 700;
-            line-height: normal;
-
-            &:hover {
-                text-decoration: underline;
-            }
-        }
-    }
 
     &__copyright {
         text-align: center;
